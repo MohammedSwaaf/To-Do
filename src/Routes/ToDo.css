@@ -1,0 +1,107 @@
+*{
+    font-weight: 600;
+}
+.ToDo{
+    text-align: center ;
+    margin-top: 100px; 
+    font-weight: 600;
+}
+.ToDo .head{
+    font-weight: bold;
+    
+}
+.ToDo .form-group{
+    margin: 50px 0;
+}
+.ToDo .form-group .action{
+  min-width: 50%;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 2px #ddd;
+  border: 0;
+}
+.ToDo .form-group .btn{
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    margin: 10px 6px;
+    padding: 10px;
+    min-width: 5%;
+    font-weight: 600;
+}
+
+.ToDo  .content .tasks {
+    max-width: 87%;
+    /* list-style: none; */
+    text-align: left;
+    margin: 15px 0;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    box-shadow: 1px 1px 3px 1px #ddd;
+    font-size: 17px;
+    display: block;
+
+}
+
+.ToDo  .content .tasks span{
+    /* margin: 0 0 0 50px; */
+    float: right;
+    font-size: 20px;
+    /* margin-bottom: 52px; */
+    margin: -14px -7px;;
+    color: #A9A9A9; 
+    -webkit-transition: 0.1s ease-in-out; 
+    -moz-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.ToDo .content .tasks span:hover{
+    color: rgba(216, 26, 26, 0.76);
+    cursor: pointer;
+}
+.ToDo .content .tasks .form-check-input{
+    float: right;
+    margin: 17px -9px;
+}
+
+
+
+
+
+
+
+
+
+
+.ToDo  .content .changed {
+    max-width: 87%;
+    /* list-style: none; */
+    text-align: left;
+    margin: 15px 0;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    box-shadow: 1px 1px 3px 1px #ddd;
+    background-color: rgb(77, 201, 170);
+    font-size: 17px;
+    display: block;
+
+}
+.ToDo  .content .changed span{
+    /* margin: 0 0 0 50px; */
+    float: right;
+    font-size: 20px;
+    /* margin-bottom: 52px; */
+    margin: -14px -7px;;
+    color: #A9A9A9; 
+    -webkit-transition: 0.1s ease-in-out; 
+    -moz-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.ToDo .content .changed span:hover{
+    color: rgba(216, 26, 26, 0.76);
+    cursor: pointer;
+}
+.ToDo .content .changed .form-check-input{
+    float: right;
+    margin: 17px -9px;
+}
